@@ -1,7 +1,9 @@
 # scDehashR
 The purpose of this app is to develop an interactive Shiny portal that can dehash any number of pooled samples from single cell techniques for easy visualization & downstream analysis for Bench scientists.
-                                ![scdehashR](https://user-images.githubusercontent.com/22992035/182950664-c8b81e6e-d518-447a-aaf7-3c003123117a.gif)
-
+ 
+ <p align="center">
+ ![ezgif com-gif-maker](https://user-images.githubusercontent.com/22992035/182951168-c5944bbf-fcad-4d0c-9a48-cece8e9d5058.gif)
+</p>
 
 ## Table of Contents
 
