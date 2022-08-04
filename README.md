@@ -132,7 +132,7 @@ Visualization module – Additional plots like Marker genes expression across mu
 
 ## Results
 
-Need to be posted yet.
+Yet to be posted
 
 ## Team Members
 
