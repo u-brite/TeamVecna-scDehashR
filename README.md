@@ -12,7 +12,7 @@ The purpose of this app is to develop an interactive Shiny portal that can dehas
  - [Example Data](#exampledata)
  - [Usage](#usage)
      - [Installation](#installation)
-     - [Dependecies](#requirements)
+     - [Requirements](#requirements)
  - [Plan](#plan)
      - [Module-1](#module-1)
      - [Module-2](#module-2)
@@ -21,7 +21,7 @@ The purpose of this app is to develop an interactive Shiny portal that can dehas
      - [Module-5](#module-5)
      - [Module-6](#module-6)
      - [Module-7](#module-7)
-     - [Module-8](#module-8)
+     - [Future Development](#futuredevelopment)
  - [Results](#results)
  - [Team Members](#team-members)
 
@@ -58,21 +58,7 @@ Works on Mac, windows and Linux (gui)
 
 *R Libraries required:*
 
-Seurat  
-dplyr  
-plotly  
-ggplot2  
-clusterprofiler  
-knitr  
-kableExtra  
-cowplot  
-gridExtra  
-tidyverse  
-biomaRt  
-Matrix  
-stringr  
-DoubletFinder (optional)  
-SingleR (optional - Cell annotation Tool)  
+Seurat, dplyr, plotly, ggplot2, clusterprofiler, knitr, kableExtra, cowplot, gridExtra, tidyverse, biomaRt, Matrix, stringr, DoubletFinder (optional), SingleR (optional - Cell annotation Tool)  
 
 ## Plan
 
@@ -123,12 +109,14 @@ Gene set enrichment analysis module – Visualization (Upset plots, enrichment p
 
 ### Module-7
 
-Multi-gene set comparison module – Comparison of genes in Hallmark vs KEGG pathways.  
-
-### Module-8
-
 Visualization module – Additional plots like Marker genes expression across multiple treatment groups.  
 
+### FutureDevelopment
+
+1. Comparison of Demultiplexing method - HTODemux, Demuxlet, scSplit.    
+2. Multi-gene set comparison module – Comparison of genes in Hallmark vs KEGG pathways.  
+3. Antibody assay analysis.  
+4. T-Cell and B-Cell repertoire Analysis.  
 
 ## Results
 
