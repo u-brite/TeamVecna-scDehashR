@@ -115,7 +115,7 @@ Visualization module – Additional plots like Marker genes expression across mu
 
 1. Comparison of Demultiplexing method - HTODemux, Demuxlet, scSplit.    
 2. Multi-gene set comparison module – Comparison of genes in Hallmark vs KEGG pathways.  
-3. Antibody assay analysis.  
+3. Option of ADT assay.  
 4. T-Cell and B-Cell repertoire Analysis.  
 
 ## Results
