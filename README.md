@@ -1,5 +1,7 @@
 # scDehashR
 The purpose of this app is to develop an interactive Shiny portal that can dehash any number of pooled samples from single cell techniques for easy visualization & downstream analysis for Bench scientists.
+                                ![scdehashR](https://user-images.githubusercontent.com/22992035/182950664-c8b81e6e-d518-447a-aaf7-3c003123117a.gif)
+
 
 ## Table of Contents
 
@@ -16,7 +18,7 @@ The purpose of this app is to develop an interactive Shiny portal that can dehas
 
 Analysis of cost effective methods spawned techniques like CITE-Seq that pool samples from different experimental conditions/replicates/library preps which are sequenced to get a high throughput. There are tools like Seurat (Sajita Lab - https://satijalab.org/seurat/articles/hashing_vignette.html) who already developed a method (HTODemux) that can demultiplex pooled samples. So, through this Shiny app, we will be making it easy for anyone in the field of omics to QC, Demultiplex, Visualize, normalize and perform some downstream analysis.
 
-https://user-images.githubusercontent.com/22992035/182947399-466dbb23-2077-44b4-bde8-3ab64bd76dc6.mp4
+
 
 ## Example Data
 
