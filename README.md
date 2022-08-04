@@ -1,7 +1,5 @@
 # scDehashR
-:exclamation: The purpose of this app is to develop an interactive Shiny portal that can dehash any number of pooled samples from single cell techniques for easy visualization & downstream analysis for Bench scientists._ :exclamation:
-
-:exclamation: _The `configs` and `notebooks` directories are also optional. We recommend taking a look at [cookiecutter for datascience](https://github.com/drivendata/cookiecutter-data-science) or [cookiecutter for computational biology](https://github.com/drivendata/cookiecutter-data-science) to get ideas on structuring your projects. Also, use a `.gitignore` that fits the main programming language of your project._ :exclamation:
+The purpose of this app is to develop an interactive Shiny portal that can dehash any number of pooled samples from single cell techniques for easy visualization & downstream analysis for Bench scientists.
 
 ## Table of Contents
 
