@@ -5,105 +5,73 @@ The purpose of this app is to develop an interactive Shiny portal that can dehas
 
 - [Template](#team-repo-template)
     - [Background](#Background)
-    - [Data](#data)
+    - [Example Data](#Example Data)
     - [Usage](#usage)
         - [Installation](#installation)
-        - [Requirements](#requirements) _Can be named Dependencies as well_
-        - [Activate conda environment](#activate-conda-environment) _Optional_
-        - [Steps to run ](#steps-to-run) _Optional depending on project_
-            - [Step-1](#step-1)
-            - [Step-2](#step-2)
+        - [Dependecies](#requirements)
     - [Results](#results) _Optional depending on project_
     - [Team Members](#team-members)
 
 ## Background
 
-:exclamation: _Include background on the project, project description, and significance. This will be converted to your team's abstract by the end of the hackathon. This should be updated by Monday, August 1st to include feedback given._ :exclamation:
+Analysis of cost effective methods spawned techniques like CITE-Seq that pool samples from different experimental conditions/replicates/library preps which are sequenced to get a high throughput. There are tools like Seurat (Sajita Lab - https://satijalab.org/seurat/articles/hashing_vignette.html) who already developed a method (HTODemux) that can demultiplex pooled samples. So, through this Shiny app, we will be making it easy for anyone in the field of omics to QC, Demultiplex, Visualize, normalize and perform some downstream analysis.
 
-## Data
+https://user-images.githubusercontent.com/22992035/182947399-466dbb23-2077-44b4-bde8-3ab64bd76dc6.mp4
 
-:exclamation: _Discuss the data you used and how it can be accessed._ :exclamation:
+## Example Data
+
+Summary of the Study:
+
+Study show that modified vaccinia Ankara (MVA)-based COVID-19 vaccine expressing membrane anchored pre-fusion stabilized spike (MVA/S) induces both neutralizing antibodies and CD8+ T cells in the blood and lung and protects from SARS-CoV-2 challenge. Single-cell RNA sequencing analysis of lung cells at day 4 post-infection revealed that MVA/S vaccination also protected macaques from infection-induced inflammation and B cell abnormalities, and lowered induction of interferon stimulated genes.
+
+(https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165747)
 
 ## Usage
 
-:exclamation: _How will someone not involved in your project be able to run the code or use it._ :exclamation:
-
 ### Installation
 
-:exclamation: _If installation is required, please mention how to do so here._ :exclamation:
-
-Installation simply requires fetching the source code. Following are required:
-
-- Git
-
-To fetch source code, change in to directory of your choice and run:
+Install Rstudio and install Rshiny package. We will provide the github link to the app, which can be installed using the following commands:
 
 ```sh
-git clone -b main \
-    git@github.com:u-brite/team-repo-template.git
+install.packages("devtools")
+install_github("scDehashR")
 ```
+Once you start the app, it should open up a Rshiny pop-up window (allow pop-up on your internet browser) which can be used to load and analyze the data.
 
 ### Requirements
-:exclamation: _Note any software used (including Python or R packages), operating system requirements, etc. and its version so that your project is reproducible. It does not have to be in the below format_ :exclamation:
 
 *OS:*
 
-Currently works only in Linux OS. Docker versions may need to be explored later to make it useable in Mac (and
-potentially Windows).
+Works on Mac, windows and Linux (gui)
 
-*Tools:*
+*R Libaries required:*
 
-- Anaconda3
-    - Tested with version: 2020.02
-
-### Activate conda environment
-:exclamation: _Optional: Depends on project._ :exclamation:
-
-Change in to root directory and run the commands below:
-
-```sh
-# create conda environment. Needed only the first time.
-conda env create --file configs/environment.yaml
-
-# if you need to update existing environment
-conda env update --file configs/environment.yaml
-
-# activate conda environment
-conda activate testing
-```
-
-### Steps to run
-:exclamation: _Optional: Depends on project._ :exclamation:
-
-#### Step 1
-
-```sh
-python src/data_prep.py -i path/to/file.tsv -O path/to/output_directory
-```
-
-#### Step 2
-
-```sh
-python src/model.py -i path/to/parsed_file.tsv -O path/to/output_directory
-```
-
-Output from this step includes -
-
-```directory
-output_directory/
-├── parsed_file.tsv               <--- used for model
-├── plot.pdf- Plot to visualize data
-└── columns.csv - columns before and after filtering step
-
-```
-
-**Note**: The is an example note with a [link](https://github.com/u-brite/team-repo-template).
-
+Seurat
+dplyr
+plotly
+ggplot2
+clusterprofiler
+knitr
+kableExtra
+cowplot
+gridExtra
+tidyverse
+biomaRt
+Matrix
+stringr
+DoubletFinder (optional)
+SingleR (optional - Cell annotation Tool)
 
 ## Results
-:exclamation: _If your project yielded or intends to yield some novel analysis, please include them in your readme. It can be named something other than results as well._ :exclamation:
+
+Need to be posted yet.
 
 ## Team Members
 
-Tarun Mamidi | tmamidi@uab.edu | Team Leader  
-Shaurita Hutchins | shutchins@uab.edu | Co-leader
+Arun Boddapati | arunbodd@outlook.com | Team Leader  
+Srinivas Nallandighal |  srinivasnvnk55@gmail.com | Team Member
+Ojonugwa Abubakar |  Otabu01@gmail.com | Team Member
+JaMor Hairston | jmhairs@uab.edu | Team Member
+Jason Needham | jneedham@uab.edu | Team Member
+Aaron Lynch | aaron.lynch24@gmail.com | Team Member
+Antony Linto | lintoantony@uabmc.edu | Team Member
